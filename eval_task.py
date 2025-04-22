@@ -7,8 +7,8 @@ import glog
 
 from lm_eval import evaluator
 from eval_utils import LMEvalAdaptor
-from .tokenization_bitnet import BitnetTokenizer
-from .modeling_bitnet import BitnetForCausalLM
+from tokenization_bitnet import BitnetTokenizer
+from modeling_bitnet import BitnetForCausalLM
 
 
 parser = argparse.ArgumentParser()
