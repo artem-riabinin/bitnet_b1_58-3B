@@ -4,8 +4,8 @@ import torch
 import random
 
 from eval_utils import get_test_dataset
-from modeling_bitnet import BitnetForCausalLM
-from tokenization_bitnet import BitnetTokenizer 
+from .modeling_bitnet import BitnetForCausalLM
+from .tokenization_bitnet import BitnetTokenizer 
 
 from tqdm import tqdm
 torch.set_grad_enabled(False)
